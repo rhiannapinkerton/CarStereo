@@ -46,7 +46,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.03"
-                android:text="Station:"
+                android:text="jnk"
                 android:textSize="24sp" />
 
             <Space
@@ -55,7 +55,7 @@
                 android:layout_weight=".1" />
 
             <SeekBar
-                android:id="@+id/seekBar2"
+                android:id="@+id/tunerBar"
                 android:layout_width="50dp"
                 android:layout_height="100dp"
                 android:layout_weight="0.33" />
@@ -69,6 +69,7 @@
                 android:id="@+id/PowerButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:onClick="Power"
                 android:text="ToggleButton" />
 
         </LinearLayout>
@@ -120,7 +121,7 @@
                 android:text="5" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="6" />
